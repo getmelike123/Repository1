@@ -30,6 +30,7 @@ public class WebSite {
 	
 	@AfterTest
 	public void teardown(){
+		System.out.println("Build 1 is success");
 		driver.close();
 	}
 	
